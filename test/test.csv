@@ -1,0 +1,3 @@
+Test Name,Dependency,Smoke Test,Production Test,Request URL,Request Header,Request Body,Type,Assertion 1,Assertion 2,Assertion 3,Assertion 4,Assertion 5,Assertion 6,Assertion 7,Assertion 8,Assertion 9,Assertion 10,Assertion 11,Assertion 12,Assertion 13,Assertion 14
+correct status,,N,N,:3000,,,GET, statusCode= 200 ,,,,,,,,,,,,,
+correct response,,N,N,:3000,,,GET,hello=world,,,,,,,,,,,,,

@@ -1,0 +1,22 @@
+{
+  "name": "pf_test_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js --delay",
+    "server": "node ./test/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fastify": "^2.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "commander": "^2.20.0",
+    "csvtojson": "^2.0.8",
+    "mocha": "^6.1.2",
+    "request": "^2.88.0"
+  }
+}
